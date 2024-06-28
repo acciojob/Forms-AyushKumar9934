@@ -7,12 +7,12 @@ import FormState from "./FormState";
 const App = () => {
   return (
     <div>
-        <Link id="form-link" to="/">Form</Link>
+        <Link id="form-link" to="/form">Form</Link>
 <Link id="form-ref-link" to="/form-ref">FormRef</Link>
 <Link id="form-state-link" to="/form-state">FormState</Link>
       <Routes>
 
-<Route path="/" element={<Form/>}></Route>
+<Route path="/form" element={<Form/>}></Route>
 
   <Route path="/form-ref"element={<FormRef/>} ></Route>
   <Route path="form-state" element={<FormState />}></Route>
